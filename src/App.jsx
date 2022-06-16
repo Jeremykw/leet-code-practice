@@ -4,25 +4,23 @@ import styled from 'styled-components';
 
 import logo from './logo.svg';
 
-export function App() {
-  return (
-    <sc.Container>
-      <sc.Header>
-        <sc.Logo src={logo} alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <sc.Link
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer">
-          Forget React
-        </sc.Link>
-        <h2>number</h2>
-      </sc.Header>
-    </sc.Container>
-  );
-}
+export const App = () => (
+  <sc.Container>
+    <sc.Header>
+      <sc.Logo src={logo} alt="logo" />
+      <p>
+        Edit <code>src/App.js</code> and save to reload.
+      </p>
+      <sc.Link
+        href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer">
+        Forget React
+      </sc.Link>
+      <h2>number</h2>
+    </sc.Header>
+  </sc.Container>
+);
 
 const sc = {
   Container: styled.div`

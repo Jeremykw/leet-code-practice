@@ -22,6 +22,8 @@
         }
       ],
       "import/prefer-default-export": "off",
+      "no-plusplus": 0,
+      "no-unused-vars": ["warn", {"vars": "all"}],
       "prettier/prettier": [
         "error",
         {
@@ -33,6 +35,10 @@
         {
           "extensions": [".js", ".jsx"]
         }
-      ]
+      ],
+      "react/function-component-definition": ["error", {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }]
     }
   }
