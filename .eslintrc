@@ -38,6 +38,7 @@
       ],
       "jsx-a11y/control-has-associated-label": 0,
       "react/button-has-type": 0,
+      "react/prop-types": 0,
       "react/function-component-definition": ["error", {
         "namedComponents": "arrow-function",
         "unnamedComponents": "arrow-function"
